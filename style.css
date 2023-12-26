@@ -1,0 +1,354 @@
+.cascading {
+    color: red;
+    font-size: xx-large;
+}
+
+.yellow-p {
+    background-color: yellow;
+}
+
+.wiki-links {
+    text-decoration: none;
+}
+
+.Upper-case-P {
+    text-transform: uppercase; 
+    text-align: center;                                       
+}
+
+.img-section {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;  
+}
+
+.pic-container {
+    width: 30%;
+    height: 20%;
+    border: solid 5px;
+    border-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: auto; 
+}
+
+.dogpic  {
+    width: 100%; 
+    height: 100%; 
+}
+.galaxy-section{
+    width: 100%;
+    height: 500px;
+    background-image: url("Images/skystars.jpg");
+    
+}
+.galaxy-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.planet1{
+    width: 150px;
+    height: 120px;
+   padding-top: 80px;
+}
+.planet2{
+    width: 175px;
+    height: 175px;
+}
+.planet3{
+    width: 275px;
+    height: 275px;
+    padding-bottom: 80px;
+}
+.white-circles{
+    width: 100%;
+    height: 500px;
+    background-image: url("Images/skystars.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle1{
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    border-radius: 50%;
+}
+.circle2{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-bottom: 170px;
+}
+.circle3{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-top: 260px;
+}
+.heart-table{ 
+   border-collapse: collapse;
+   border-spacing: 0;
+   border: 0;
+}
+.image-size{
+    width: 50px;
+    height:50px;
+   border: 0;
+   margin: 0;
+   box-sizing: border-box;
+   display: block;
+}
+.heart-table td{
+    padding: 0;
+    margin: 0;
+}
+.ex1{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: lightblue;
+}
+.winky-img{
+    width: 60px;
+    height: 60px;
+}
+.green-div1{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(12, 201, 12);
+    border: solid 3px black;
+}
+.green-div2{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(38, 157, 38);
+    border: solid 3px black;
+}
+.green-div3{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(8, 113, 8);
+    border: solid 3px black;
+}
+.green-div4{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(3, 84, 3);
+    border: solid 3px black;
+}
+.green-div5{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(1, 43, 1);
+    border: solid 3px black;
+}
+.container-2colors{
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.a-div-yellow{
+    background-color: yellow;
+}
+.b-div-yellowgreen{
+    background-color: yellowgreen;
+}
+.d-div-green{
+    width: 100%;
+    height: 5vh;
+    background-color: green;
+}
+.main-container-ex6{
+    width: 100%;
+    height: 100%;
+    border: solid;
+}
+.main-header-ex6{
+    width: 100%;
+    height: 60px;
+    background-color: skyblue;
+}
+.navbar-ex6{
+    width: 100%;
+    height: 20px;
+    background-color: purple;
+}
+.section-ex6{
+    width: auto;
+    height: 400px;
+    background-color: yellowgreen;
+    margin: 20px;
+}
+.footer-ex6{
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+}
+.main-container-ex7{
+    width: 100%;
+    height: 100%;
+    border: solid;
+    background-color: pink;   
+}
+.main-header-ex7{
+    width: 100%;
+    height: 60px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-ex7{
+    width: 100%;
+    height: 30px;
+    background-color: blue;   
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-ex7{
+    width: 100%;
+    height: 50px;
+    background-color: gray;  
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-ex7{
+    width: auto;
+    height: 80vh;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(221, 12, 12);
+}
+.main-section-div{
+    width: auto;
+    border: solid white 1px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: blue;
+}
+.red-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: solid 2px white;
+    color: white;
+    text-transform: uppercase;
+}
+.yellow-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border: solid 2px white;
+    color: white;
+    text-transform: uppercase;
+}
+.green-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border: solid 2px white;
+    color: white;
+    text-transform: uppercase;
+} 
+.pink-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 22, 146);
+    border: solid 2px white;
+    color: white;
+    text-transform: uppercase;
+}    
+.main-section-ex8{
+    width: 100%;
+    height: 100%;
+}
+.main-div-ex8{
+    width: 100%;
+    height: 100vh;
+    
+}
+@media screen and (max-width: 576px) {
+    .main-div-ex8 {
+        background-color: red;
+    }
+}
+@media screen and (min-width: 576px) {
+    .main-div-ex8 {
+        background-color: rgb(0, 225, 255);
+    }
+}
+@media screen and (min-width: 768px) {
+    .main-div-ex8 {
+        background-color: green;
+    }
+}
+@media screen and (min-width: 990px) {
+    .main-div-ex8 {
+        background-color: blue;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .main-div-ex8 {
+        background-color: orange;
+    }
+}
+@media screen and (max-width: 420px) {
+    .first-section-container {
+        background-color: rgb(9, 9, 9);
+        
+    }
+}
+.size-col{
+    height: 15rem;
+    border-radius: 5px;
+}
+.main-website-container{
+    width: 100vw; 
+    height: 100vh; 
+    
+}
+.main-div-container{
+    height: 100%; 
+    width: 100%;
+    margin-top: 0;
+}
+.car-image{
+    width:50%;
+}
+.car-div-image{
+    display: grid;
+    justify-items: center; 
+    align-items: center; 
+    width: 100%;
+    padding-top: 10%;
+}
+.flex-wrapper {
+    display: grid;
+    height: 18%;
+    background-color: royalblue;
+    text-align: center;
+  }
+.main-section-bs{
+    height: 75%;
+}
